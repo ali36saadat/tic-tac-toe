@@ -1,27 +1,31 @@
-# Tic Tac Toe - Multiplayer
+# Tic Tac Toe
+<a href="https://ali36saadat.github.io/repositories/tic-tac-toe">
+  <img src="https://github.com/user-attachments/assets/241572b7-6b45-4ac2-beb7-00bf887186f6" alt="header">
+</a>
 
-![Tic Tac Toe Game Description](https://github.com/ali36saadat/tic-tac-toe-multiplayer/assets/139570075/e6c62763-8dbc-4a84-a7b0-2b006a6c3a0c)
+## Description
+In this project, we implemented the Tic Tac Toe Multiplayer game using JavaScript and Socket IO. The game is designed as a client-server application, with each participant taking on the role of a client. You can play with random players or create a room to play with your friends. During the game, you can communicate with your opponent. You can create a room and invite your friend. The game also includes chat, so you can talk with your opponent while you play. The project brings together the familiar Tic Tac Toe rules and a client-server setup for a shared online game.
 
-# Description
+## Usage
+**Requirements:** `node` and `npm`
 
-In this project, we implemented the Tic Tac Toe Multiplayer game using JavaScript and Socket IO. The game is designed as a client-server application, with each participant taking on the role of a client. You can play with random players or create a room to play with your friends. During the game, you can communicate with your opponent. enjoy various other features that you need to explore yourself...
+1: Clone
+```bash
+git clone https://github.com/ali36saadat/tic-tac-toe.git
+cd tic-tac-toe
+```
+2: Install Dependencies
+```bash
+npm install
+```
+3: Run the server
+```bash
+node app.js
+```
+4: Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-# Installation Process
-
-1. Open the terminal and type command "npm i" or "npm install" ( Make sure to have Node.js(TLS) installed before type commands )
-2. After that, type command "node app.js"
-3. Open the browser and type address "http://localhost:3000"
-4. Enjoy it...😃
-
-# Detail
-  
-- 👨🏻‍💻 Developed by : Ali Saadat
-
-- 💻 Technologies Used : HTML, CSS, Tailwind, Javascript, Node js, Socket IO
-  
-- 🖼️ Initial UI : [André Castelo Branco - Figma](https://www.figma.com/community/file/893942075601804557)
-
-# Socials
-
-![Linkedin Badge](https://img.shields.io/badge/Linkedin-0e76a8?style=for-the-badge&labelColor=white&logo=Linkedin&logoColor=0e76a8 )
-![Twitter Badge](https://img.shields.io/badge/Twitter-white?style=for-the-badge&labelColor=black&logo=X&logoColor=white)
+## Acknowledgments
+ **[Figma - André Castelo Branco](https://www.figma.com/community/file/893942075601804557)**
+ 
+## Links
+ **[DEMO LINK](https://alisaadat-tictactoe.onrender.com)**  
